@@ -112,10 +112,8 @@ public class Buying extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
             Book ob= (Book) adapterView.getItemAtPosition(i);
-            Toast.makeText(getApplicationContext(),ob.getBookKey(),Toast.LENGTH_LONG).show();
-            Intent intent=new Intent(getApplicationContext(),BookPanel.class);
-            intent.putExtra("key",ob.getBookKey());
-            startActivity(intent);
+            Toast.makeText(getApplicationContext(),"You selected "+ob.getBookName(),Toast.LENGTH_LONG).show();
+            
         }
     };
 
