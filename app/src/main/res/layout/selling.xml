@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="2sp"
+    android:orientation="vertical"
+    android:background="@drawable/bluegradeint"
+    android:weightSum="9">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="enter book details"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textColor="#311B92"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Book Name"
+            android:id="@+id/bn1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Author Name"
+            android:id="@+id/an1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Course Name"
+            android:id="@+id/cn1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Published Year"
+            android:id="@+id/yn1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Subject Name"
+            android:id="@+id/sn1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Book Price"
+            android:id="@+id/bp1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_marginRight="4sp"
+        android:layout_marginLeft="4sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/addimage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="add image"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:fontFamily="casual"
+            android:textColor="#311B92"
+            android:background="@drawable/roundedbutton"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10sp"
+            android:text="Sell"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#311B92"
+            android:background="@drawable/roundedbutton"
+            android:layout_gravity="center"
+            android:id="@+id/sell1"/>
+    </LinearLayout>
+</LinearLayout>

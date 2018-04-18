@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="2sp"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textSize="20dp"
+        android:text="A new, fun and easy way to buy and sell a book."
+        android:textColor="#311B92" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Buy 'n' Sell"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:fontFamily="cursive" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Buy a book"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:textColor="#006064"
+            android:textAlignment="center"
+            android:id="@+id/buy1"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sell a book"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/sell1"
+            android:textColor="#E65100"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:textColor="#212121"
+        android:textStyle="bold|italic"
+        android:text="Sharing education, sharing a book....that's what changes the world."
+        android:textAlignment="center"/>
+
+</LinearLayout>

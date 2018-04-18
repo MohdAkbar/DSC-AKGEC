@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="2sp"
+    android:layout_rowWeight="4"
+    android:background="@drawable/bluegradeint"
+    tools:context="com.example.akbar.book_ing.Main3Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="enter your details"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#311B92"
+        android:gravity="center"
+        android:textAllCaps="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="USERNAME"
+        android:inputType="text"
+        android:id="@+id/usersign"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailsign"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Mobile No."
+        android:inputType="phone"
+        android:id="@+id/phnosign"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/spinner1sign"
+        >
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:hint="enter password"
+        android:id="@+id/pass1sign"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Re-enter password"
+        android:inputType="textPassword"
+        android:id="@+id/pass2sign"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="submit"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/submitsign"/>
+
+
+</LinearLayout>
